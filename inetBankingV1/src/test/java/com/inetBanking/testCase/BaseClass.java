@@ -16,7 +16,7 @@ public class BaseClass {
 	@BeforeClass
 	public void Setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "C://Users//nikhi//eclipse-workspace//Practise//inetBankingV1//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nikhi\\git\\repository\\inetBankingV1\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
